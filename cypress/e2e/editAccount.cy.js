@@ -16,10 +16,10 @@ describe('Magento Edit Account Page Test Case', () => {
         cy.verify(EditAccount.editSuccess, this.user.verification.editSuccess);
     });
 
-    // it('Edit First Name Success', function () {
-    //     EditAccount.fillFirstName(this.user.edit.firstName2);
-    //     cy.saveChanges();
-    // });
+    it('Edit First Name Success', function () {
+        EditAccount.fillFirstName(this.user.edit.firstName2);
+        cy.saveChanges();
+    });
 
     // it('Edit Last Name Success', function () {
     //     EditAccount.fillLastName(this.user.edit.lastName2);
