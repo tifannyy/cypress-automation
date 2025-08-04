@@ -1,0 +1,34 @@
+{
+    "validUser": {
+      "email": "jonsnow@gmail.com",
+      "password": "jonsnow123#"
+    },
+    "invalidUser": {
+      "email": "jonsnow@gmail",
+      "password": "ppppppppp"
+    },
+
+    "errorMessages": {
+      "invalidLogin": "The account sign-in was incorrect",
+      "invalidEmail": "Please enter a valid email address",
+      "loginReq": "A login and a password are required",
+      "required": "This is a required field"
+    },
+
+    "verification": {
+      "logoutSuccess": "You are signed out",
+      "editSuccess": "You saved the account information"
+    },
+
+    "edit": {
+      "firstName": "joe",
+      "firstName2": "jon",
+      "lastName": "snoe",
+      "lastName2": "snow",
+      "email": "joesnoe@gmail.com",
+      "email2": "joesnow.com",
+      "password": "joesnoe123!",
+      "password2": "joe"
+    }
+}
+  
