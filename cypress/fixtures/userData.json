@@ -12,7 +12,10 @@
       "invalidLogin": "The account sign-in was incorrect",
       "invalidEmail": "Please enter a valid email address",
       "loginReq": "A login and a password are required",
-      "required": "This is a required field"
+      "required": "This is a required field",
+      "invalidPass": "The password doesn't match this account",
+      "invalidNewPass": "Minimum length of this field must be equal or greater than 8 symbols",
+      "invalidConfirmPass": "Please enter the same value again"
     },
 
     "verification": {

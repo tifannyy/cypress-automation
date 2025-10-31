@@ -25,6 +25,10 @@ class EditAccount {
         cy.visit('/customer/account/')
     }
 
+    visit2 () {
+        cy.visit('/customer/account/index/')
+    }
+
     clickEditAccount () {
         cy.get(this.editAccount).click();
     }
